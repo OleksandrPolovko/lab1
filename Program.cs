@@ -11,6 +11,9 @@ namespace Lab1
         static void Main(string[] args)
         {
             Console.Out.WriteLine("hello world!!!");
+            Console.Out.WriteLine("what is your name?");
+            String name = Console.In.ReadLine();
+            Console.Out.WriteLine("Ok. " + name);
             Console.In.Read();
         }
     }
